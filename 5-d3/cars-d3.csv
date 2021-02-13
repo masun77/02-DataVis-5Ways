@@ -1,0 +1,98 @@
+﻿ID,,Car,Manufacturer,WeightSq,Weight,MPG,Cylinders,Displacement,Horsepower,Acceleration,Model.Year,Origin
+1,30,2002,bmw,4990756,2234,26,4,121,113,12.5,70,European
+2,250,320i,bmw,6760000,2600,21.5,4,121,110,12.8,77,European
+3,5,torino,ford,11895601,3449,17,8,302,140,10.5,70,American
+4,6,galaxie 500,ford,18844281,4341,15,8,429,198,10,70,American
+5,13,torino (sw),ford,16273156,4034,NA,8,351,153,11,70,American
+6,18,mustang boss 302,ford,11242609,3353,NA,8,302,140,8,70,American
+7,24,maverick,ford,6692569,2587,21,6,200,85,16,70,American
+8,32,f250,ford,21298225,4615,10,8,360,215,14,70,American
+9,39,pinto,ford,4186116,2046,25,4,98,NA,19,71,American
+10,44,torino 500,ford,10903204,3302,19,6,250,88,15.5,71,American
+11,48,galaxie 500,ford,17255716,4154,14,8,351,153,13.5,71,American
+12,51,country squire (sw),ford,22524516,4746,13,8,400,170,12,71,American
+13,56,mustang,ford,9853321,3139,18,6,250,88,14.5,71,American
+14,69,pinto runabout,ford,4955076,2226,21,4,122,86,16.5,72,American
+15,73,galaxie 500,ford,17048641,4129,14,8,351,153,13,72,American
+16,82,gran torino (sw),ford,18438436,4294,13,8,302,140,16,72,American
+17,88,pinto (sw),ford,5736025,2395,22,4,122,86,16,72,American
+18,96,gran torino,ford,16337764,4042,14,8,302,137,14.5,73,American
+19,100,ltd,ford,19035769,4363,13,8,351,158,13,73,American
+20,108,maverick,ford,9126441,3021,18,6,250,88,16.5,73,American
+21,112,country,ford,24068836,4906,12,8,400,167,12.5,73,American
+22,120,pinto,ford,5336100,2310,19,4,122,85,18.5,73,American
+23,134,maverick,ford,8265625,2875,21,6,200,NA,17,74,American
+24,138,pinto,ford,6007401,2451,26,4,122,80,16.5,74,American
+25,144,gran torino,ford,17147881,4141,16,8,302,140,14,74,American
+26,147,gran torino (sw),ford,21511044,4638,14,8,302,140,16,74,American
+27,163,maverick,ford,9972964,3158,15,6,250,72,19.5,75,American
+28,167,ltd,ford,21687649,4657,14,8,351,148,13.5,75,American
+29,174,mustang ii,ford,10042561,3169,13,8,302,129,12,75,American
+30,176,pinto,ford,6964321,2639,23,4,140,83,17,75,American
+31,182,pinto,ford,8904256,2984,18,6,171,97,14.5,75,American
+32,198,gran torino,ford,17766225,4215,14.5,8,351,152,12.8,76,American
+33,201,maverick,ford,9072144,3012,24,6,200,81,17.6,76,American
+34,208,granada ghia,ford,12773476,3574,18,6,250,78,21,76,American
+35,214,pinto,ford,6579225,2565,26.5,4,140,72,13.6,76,American
+36,222,f108,ford,14976900,3870,13,8,302,130,15,76,American
+37,236,granada,ford,12425625,3525,18.5,6,250,98,19,77,American
+38,240,thunderbird,ford,18792225,4335,16,8,351,149,14.5,77,American
+39,244,mustang ii 2+2,ford,7590025,2755,25.5,4,140,89,15.8,77,American
+40,253,fiesta,ford,3240000,1800,36.1,4,98,66,14.4,78,American
+41,262,fairmont (auto),ford,8791225,2965,20.2,6,200,85,15.8,78,American
+42,263,fairmont (man),ford,7398400,2720,25.1,4,140,88,15.4,78,American
+43,272,futura,ford,10272025,3205,18.1,8,302,139,11.2,78,American
+44,290,fairmont 4,ford,8352100,2890,22.3,4,140,88,17.3,79,American
+45,294,ltd landau,ford,13875625,3725,17.6,8,302,129,13.4,79,American
+46,298,country squire (sw),ford,16434916,4054,15.5,8,351,142,14.3,79,American
+47,322,fairmont,ford,8236900,2870,26.4,4,140,88,18.1,80,American
+48,344,mustang cobra,ford,8439025,2905,23.6,4,140,NA,14.3,80,American
+49,359,escort 4w,ford,4182025,2045,34.4,4,98,65,16.2,81,American
+50,360,escort 2h,ford,5664400,2380,29.9,4,98,65,20.7,81,American
+51,374,granada gl,ford,9363600,3060,20.2,6,200,88,17.1,81,American
+52,382,fairmont futura,ford,8208225,2865,24,4,140,92,16.4,82,American
+53,398,granada l,ford,8037225,2835,22,6,232,112,14.7,82,American
+54,402,mustang gl,ford,7784100,2790,27,4,140,86,15.6,82,American
+55,405,ranger,ford,6890625,2625,28,4,120,79,18.6,82,American
+56,157,civic,honda,6195121,2489,24,4,120,97,15,74,Japanese
+57,189,civic cvcc,honda,3222025,1795,33,4,91,53,17.5,75,Japanese
+58,206,civic,honda,3222025,1795,33,4,91,53,17.4,76,Japanese
+59,224,accord cvcc,honda,4182025,2045,31.5,4,98,68,18.5,77,Japanese
+60,256,civic cvcc,honda,3240000,1800,36.1,4,91,60,16.4,78,Japanese
+61,287,accord lx,honda,4558225,2135,29.5,4,98,68,16.6,78,Japanese
+62,337,civic 1500 gl,honda,3422500,1850,44.6,4,91,67,13.8,80,Japanese
+63,345,accord,honda,5244100,2290,32.4,4,107,72,17,80,Japanese
+64,353,civic 1300,honda,3097600,1760,35.1,4,81,60,16.1,81,Japanese
+65,363,prelude,honda,4884100,2210,33.7,4,107,75,14.4,81,Japanese
+66,390,accord,honda,4862025,2205,36,4,107,75,14.5,82,Japanese
+67,392,civic,honda,3861225,1965,38,4,91,67,15,82,Japanese
+68,393,civic (auto),honda,3861225,1965,32,4,91,67,15.7,82,Japanese
+69,219,280s,mercedes,14592400,3820,16.5,6,168,120,16.7,76,European
+70,305,300d,mercedes,12460900,3530,25.4,5,183,77,20.1,79,European
+71,336,240d,mercedes,10562500,3250,30,4,146,67,21.8,80,European
+72,21,corona mark ii,toyota,5626384,2372,24,4,113,95,15,70,Japanese
+73,38,corona,toyota,4963984,2228,25,4,113,95,14,71,Japanese
+74,61,corolla 1200,toyota,3143529,1773,31,4,71,65,19,71,Japanese
+75,65,corona hardtop,toyota,5189284,2278,24,4,113,95,15.5,72,Japanese
+76,90,corona mark ii (sw),toyota,6280036,2506,23,4,120,97,14.5,72,Japanese
+77,92,corolla 1600 (sw),toyota,4410000,2100,27,4,97,88,16.5,72,Japanese
+78,116,carina,toyota,5193841,2279,20,4,97,88,19,73,Japanese
+79,131,mark ii,toyota,7879249,2807,20,6,156,122,13.5,73,Japanese
+80,139,corolla 1200,toyota,3370896,1836,32,4,71,65,21,74,Japanese
+81,152,corona,toyota,2719201,1649,31,4,76,52,16.5,74,Japanese
+82,175,corolla,toyota,4713241,2171,29,4,97,75,16,75,Japanese
+83,179,corona,toyota,7300804,2702,24,4,134,96,13.5,75,Japanese
+84,213,corolla,toyota,4644025,2155,28,4,97,75,16.4,76,Japanese
+85,218,mark ii,toyota,8584900,2930,19,6,156,108,15.5,76,Japanese
+86,243,corolla liftback,toyota,5130225,2265,26,4,97,75,18.2,77,Japanese
+87,275,corona,toyota,6553600,2560,27.5,4,134,95,14.2,78,Japanese
+88,278,celica gt liftback,toyota,6325225,2515,21.1,4,134,95,14.8,78,Japanese
+89,318,corolla tercel,toyota,3873024,1968,38.1,4,89,60,18.8,80,Japanese
+90,326,corona liftback,toyota,7349521,2711,29.8,4,134,90,15.5,80,Japanese
+91,329,corolla,toyota,5130225,2265,32.2,4,108,75,15.2,80,Japanese
+92,351,starlet,toyota,3080025,1755,39.1,4,79,58,16.9,81,Japanese
+93,356,tercel,toyota,4202500,2050,37.7,4,89,62,17.3,81,Japanese
+94,364,corolla,toyota,5522500,2350,32.4,4,108,75,16.8,81,Japanese
+95,370,cressida,toyota,8410000,2900,25.4,6,168,116,12.6,81,Japanese
+96,391,corolla,toyota,5040025,2245,34,4,108,70,16.9,82,Japanese
+97,399,celica gt,toyota,7102225,2665,32,4,144,96,13.9,82,Japanese

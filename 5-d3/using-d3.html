@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<!--Maya Sun-->
+<!--CS 480X-->
+<!--2/12/2021-->
+
+<html>
+    <body>
+        <p id='label' style="font-size:50px">d3 Chart</p>
+        <div id="vis"></div>
+    </body>
+</html>
+
+<script src="https://d3js.org/d3.v6.min.js"></script>
+
+<script>
+    console.log(d3); // test if d3 is loaded
+
+    // set the dimensions and margins of the graph
+    let margin = {top: 10, right: 30, bottom: 30, left: 60},
+        width = 460 - margin.left - margin.right,
+        height = 400 - margin.top - margin.bottom;
+
+    // append the svg object to the body of the page
+    let svg = d3.select("#vis")
+        .append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform",
+            "translate(" + margin.left + "," + margin.top + ")");
+
+    d3.csv("http://localhost:8000/cars-d3.csv").then(
+        function(cars) {
+            // Add X axis
+            let x = d3.scaleLinear()
+                .domain([1500, 5000])
+                .range([ 0, width ])
+
+            let xAxis = d3.axisBottom(x)
+            xAxis.ticks(4)
+
+            svg.append("g")
+                .attr("transform", "translate(0," + height + ")")
+                .call(xAxis)
+
+            // text label for the x axis
+            svg.append("text")
+                .attr("transform",
+                    "translate(" + (width/2) + " ," +
+                    (height + margin.top + 20) + ")")
+                .style("text-anchor", "middle")
+                .text("Weight");
+
+            // Add Y axis
+            var y = d3.scaleLinear()
+                .domain([8, 45])
+                .range([ height, 0]);
+            let yAxis = d3.axisLeft(y).ticks(4)
+
+            svg.append("g")
+                .call(yAxis);
+
+            // text label for the y axis
+            svg.append("text")
+                .attr("transform", "rotate(-90)")
+                .attr("y", 0 - margin.left)
+                .attr("x",0 - (height / 2))
+                .attr("dy", "1em")
+                .style("text-anchor", "middle")
+                .text("MPG");
+
+            // Add dots
+            svg.append('g')
+                .selectAll("dot")
+                .data(cars)
+                .enter()
+                .append("circle")
+                .attr("cx", function (d) { return x(d.Weight); } )
+                .attr("cy", function (d) { return y(d.MPG); } )
+                .attr("r", function (d) { return d.Weight / 500; })
+                .style("opacity", 0.5)
+                .style("fill", function (d) {
+                    if (d.Manufacturer==='bmw') {
+                        return 'red';
+                    }
+                    if (d.Manufacturer==='ford') {
+                        return '#bab600';
+                    }
+                    if (d.Manufacturer==='honda') {
+                        return 'green';
+                    }
+                    if (d.Manufacturer==='mercedes') {
+                        return 'blue';
+                    }
+                    return 'purple'
+                    }
+                )
+    });
+
+</script>
